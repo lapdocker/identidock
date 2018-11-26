@@ -26,7 +26,7 @@ def mainpage():
 
     body = '''<form method="POST">
               Hello! <input type="text" name="name" value="{0}">
-              <input type="submit" value="make a image">
+              <input type="submit" value="create a image">
               </form>
               <p> You look like a :
               <img src="/monster/{1}"/>
